@@ -2,7 +2,7 @@
 
 <div>
   <p>Description: <%= @product.description %></p>
-  <p>Price: <%= @product.price_in_cents %> cents</p>
+  <p>Price: <%= @product.formatted_price %> cents</p>
 </div>
 
 <%= link_to "All Products", products_url %>
