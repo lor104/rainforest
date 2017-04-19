@@ -1,0 +1,9 @@
+<h1><%= @product.name %></h1>
+
+<div>
+  <p>Description: <%= @product.description %></p>
+  <p>Price: <%= @product.price_in_cents %> cents</p>
+</div>
+
+<%= link_to "All Products", products_url %>
+<%= link_to "Edit Product", edit_product_url(@product) %>
